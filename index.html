@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub User Fetch</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+<body>
+  <div class="container">
+    <h1>GitHub User Finder</h1>
+    <p class="subtitle">Search for any GitHub user by their username</p>
+    
+    <div class="search-container">
+      <input type="text" id="username" placeholder="Enter GitHub username">
+      <button onclick="getUser()">
+        <i class="fas fa-search"></i> Get User
+      </button>
+    </div>
+
+    <div id="result"></div>
+
+    <footer>
+      <p>GitHub User Finder &copy; 2023 | Uses the official GitHub API</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+  </body>
+</html>
